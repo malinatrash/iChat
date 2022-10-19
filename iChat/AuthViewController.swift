@@ -16,7 +16,7 @@ class AuthViewController: UIViewController {
     let alreadyOnBoardLabel = UILabel(text: "Already on board")
     
     let emailButton = UIButton(title: "Email",titleColor: .white, backgroundColor: .buttonBlack())
-    let loginButton = UIButton(title: "Login", titleColor: .buttonRed(), backgroundColor: .white)
+    let loginButton = UIButton(title: "Login", titleColor: .buttonRed(), backgroundColor: .white, isShadow: true)
     let googleButton = UIButton(title: "Google", titleColor: .black, backgroundColor: .white, isShadow: true)
     
     override func viewDidLoad() {
@@ -24,7 +24,10 @@ class AuthViewController: UIViewController {
         view.backgroundColor = .white
         setupConstraints()
     }
-    
+}
+
+//MARK: - Setup constraints
+extension AuthViewController {
     private func setupConstraints() {
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
     
@@ -50,7 +53,6 @@ class AuthViewController: UIViewController {
             stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40)
         ])
     }
-    
 }
 
 

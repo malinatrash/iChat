@@ -19,6 +19,7 @@
 		E6F109EC2900561A00DA8ACF /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F109EB2900561A00DA8ACF /* UIImageView + Extension.swift */; };
 		E6F109F12900594500DA8ACF /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F109F02900594500DA8ACF /* ButtonFormView.swift */; };
 		E6F109F329005EC400DA8ACF /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F109F229005EC400DA8ACF /* StackView + Extension.swift */; };
+		E6F109F5290062CB00DA8ACF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F109F4290062CB00DA8ACF /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E6F109EB2900561A00DA8ACF /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
 		E6F109F02900594500DA8ACF /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
 		E6F109F229005EC400DA8ACF /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
+		E6F109F4290062CB00DA8ACF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				E67AD5FC290047E500715218 /* Assets.xcassets */,
 				E67AD5FE290047E500715218 /* LaunchScreen.storyboard */,
 				E67AD601290047E500715218 /* Info.plist */,
+				E6F109F4290062CB00DA8ACF /* SignUpViewController.swift */,
 			);
 			path = iChat;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F109F5290062CB00DA8ACF /* SignUpViewController.swift in Sources */,
 				E6EC4FFE290050DA003F58F8 /* UIFont + Extension.swift in Sources */,
 				E67AD5F8290047E300715218 /* AuthViewController.swift in Sources */,
 				E67AD5F4290047E300715218 /* AppDelegate.swift in Sources */,
