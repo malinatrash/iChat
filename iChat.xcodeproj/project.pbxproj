@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E62CEBF429012C6E0025F8C0 /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62CEBF329012C6E0025F8C0 /* SetupProfileViewController.swift */; };
+		E62CEBF629012EA20025F8C0 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62CEBF529012EA20025F8C0 /* AddPhotoViewController.swift */; };
 		E67AD5F4290047E300715218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AD5F3290047E300715218 /* AppDelegate.swift */; };
 		E67AD5F6290047E300715218 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AD5F5290047E300715218 /* SceneDelegate.swift */; };
 		E67AD5F8290047E300715218 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67AD5F7290047E300715218 /* AuthViewController.swift */; };
@@ -21,9 +23,12 @@
 		E6F109F329005EC400DA8ACF /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F109F229005EC400DA8ACF /* StackView + Extension.swift */; };
 		E6F109F5290062CB00DA8ACF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F109F4290062CB00DA8ACF /* SignUpViewController.swift */; };
 		E6F109F72901108B00DA8ACF /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F109F62901108B00DA8ACF /* OneLineTextField.swift */; };
+		E6F109FD290118D100DA8ACF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F109FC290118D100DA8ACF /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E62CEBF329012C6E0025F8C0 /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
+		E62CEBF529012EA20025F8C0 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 		E67AD5F0290047E300715218 /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67AD5F3290047E300715218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E67AD5F5290047E300715218 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 		E6F109F229005EC400DA8ACF /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
 		E6F109F4290062CB00DA8ACF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E6F109F62901108B00DA8ACF /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
+		E6F109FC290118D100DA8ACF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,13 +78,11 @@
 		E67AD5F2290047E300715218 /* iChat */ = {
 			isa = PBXGroup;
 			children = (
+				E6F109F82901186C00DA8ACF /* ViewControllers */,
 				E6F109EE290057B500DA8ACF /* Extensions */,
-				E67AD5F3290047E300715218 /* AppDelegate.swift */,
-				E67AD5F5290047E300715218 /* SceneDelegate.swift */,
-				E67AD5F7290047E300715218 /* AuthViewController.swift */,
-				E6F109F4290062CB00DA8ACF /* SignUpViewController.swift */,
-				E67AD5FC290047E500715218 /* Assets.xcassets */,
-				E67AD5FE290047E500715218 /* LaunchScreen.storyboard */,
+				E6F109FB290118A200DA8ACF /* StoryBoards */,
+				E6F109FA2901188F00DA8ACF /* Sourses */,
+				E6F109F92901188200DA8ACF /* App */,
 				E67AD601290047E500715218 /* Info.plist */,
 			);
 			path = iChat;
@@ -103,8 +107,45 @@
 				E6F109F02900594500DA8ACF /* ButtonFormView.swift */,
 				E6F109F62901108B00DA8ACF /* OneLineTextField.swift */,
 				E6F109ED290057A700DA8ACF /* UIKit */,
+				E62CEBF529012EA20025F8C0 /* AddPhotoViewController.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E6F109F82901186C00DA8ACF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E67AD5F7290047E300715218 /* AuthViewController.swift */,
+				E6F109F4290062CB00DA8ACF /* SignUpViewController.swift */,
+				E6F109FC290118D100DA8ACF /* LoginViewController.swift */,
+				E62CEBF329012C6E0025F8C0 /* SetupProfileViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E6F109F92901188200DA8ACF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E67AD5F5290047E300715218 /* SceneDelegate.swift */,
+				E67AD5F3290047E300715218 /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		E6F109FA2901188F00DA8ACF /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				E67AD5FC290047E500715218 /* Assets.xcassets */,
+			);
+			name = Sourses;
+			sourceTree = "<group>";
+		};
+		E6F109FB290118A200DA8ACF /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				E67AD5FE290047E500715218 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +222,7 @@
 				E6F109F5290062CB00DA8ACF /* SignUpViewController.swift in Sources */,
 				E6EC4FFE290050DA003F58F8 /* UIFont + Extension.swift in Sources */,
 				E67AD5F8290047E300715218 /* AuthViewController.swift in Sources */,
+				E62CEBF429012C6E0025F8C0 /* SetupProfileViewController.swift in Sources */,
 				E67AD5F4290047E300715218 /* AppDelegate.swift in Sources */,
 				E6F109F12900594500DA8ACF /* ButtonFormView.swift in Sources */,
 				E6EC500229005529003F58F8 /* UILabel + Extension.swift in Sources */,
@@ -188,6 +230,8 @@
 				E6EC5000290051B0003F58F8 /* UIColor + Extension.swift in Sources */,
 				E67AD5F6290047E300715218 /* SceneDelegate.swift in Sources */,
 				E6EC4FFC29004EC2003F58F8 /* UIButton + Extension.swift in Sources */,
+				E62CEBF629012EA20025F8C0 /* AddPhotoViewController.swift in Sources */,
+				E6F109FD290118D100DA8ACF /* LoginViewController.swift in Sources */,
 				E6F109F329005EC400DA8ACF /* StackView + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
