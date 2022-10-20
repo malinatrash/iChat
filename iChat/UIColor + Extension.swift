@@ -16,8 +16,13 @@ extension UIColor {
     static func mainWhite() -> UIColor {
         return hexStringToUIColor(hex: "F7F8FD")
     }
+    
     static func buttonBlack() -> UIColor {
         return hexStringToUIColor(hex: "333333")
+    }
+    
+    static func textFieldLight() -> UIColor {
+        return hexStringToUIColor(hex: "E6E6E6")
     }
 }
 

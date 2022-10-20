@@ -20,6 +20,7 @@
 		E6F109F12900594500DA8ACF /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F109F02900594500DA8ACF /* ButtonFormView.swift */; };
 		E6F109F329005EC400DA8ACF /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F109F229005EC400DA8ACF /* StackView + Extension.swift */; };
 		E6F109F5290062CB00DA8ACF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F109F4290062CB00DA8ACF /* SignUpViewController.swift */; };
+		E6F109F72901108B00DA8ACF /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F109F62901108B00DA8ACF /* OneLineTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E6F109F02900594500DA8ACF /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
 		E6F109F229005EC400DA8ACF /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
 		E6F109F4290062CB00DA8ACF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E6F109F62901108B00DA8ACF /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +76,10 @@
 				E67AD5F3290047E300715218 /* AppDelegate.swift */,
 				E67AD5F5290047E300715218 /* SceneDelegate.swift */,
 				E67AD5F7290047E300715218 /* AuthViewController.swift */,
+				E6F109F4290062CB00DA8ACF /* SignUpViewController.swift */,
 				E67AD5FC290047E500715218 /* Assets.xcassets */,
 				E67AD5FE290047E500715218 /* LaunchScreen.storyboard */,
 				E67AD601290047E500715218 /* Info.plist */,
-				E6F109F4290062CB00DA8ACF /* SignUpViewController.swift */,
 			);
 			path = iChat;
 			sourceTree = "<group>";
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				E6F109F02900594500DA8ACF /* ButtonFormView.swift */,
+				E6F109F62901108B00DA8ACF /* OneLineTextField.swift */,
 				E6F109ED290057A700DA8ACF /* UIKit */,
 			);
 			name = Extensions;
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F109F72901108B00DA8ACF /* OneLineTextField.swift in Sources */,
 				E6F109F5290062CB00DA8ACF /* SignUpViewController.swift in Sources */,
 				E6EC4FFE290050DA003F58F8 /* UIFont + Extension.swift in Sources */,
 				E67AD5F8290047E300715218 /* AuthViewController.swift in Sources */,
